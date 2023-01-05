@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
+}
+
+.fixed-top.scrolled {
+    background-color: rgb(0, 0, 0, 0.7) !important;
+    transition: background-color 0.5s;
+}
+  
+.fixed-top.scrolled .nav-link-1 {
+    color: white;
+}
+
+
+.hero-banner {
+  background-image: url("../images/Background_Image.png");
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6rem;
+}
+
+/*Header*/
+.collapse {
+  justify-content: center;
+}
+
+.navbar.navbar-dark.navbar-expand-lg {
+    padding: 2rem;
+    background-color: black;
+}
+
+.nav-bar {
+  /* font-family: "Adobe Clean", sans-serif; */
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+.nav {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+nav{
+  min-height: 6rem;
+}
+
+.nav-item {
+  font-family: "Adobe Clean Light", sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0;
+}
+
+.nav-link-1 {
+  font-size: 1rem;
+  /* font-weight: 100; */
+  color: white;
+  text-decoration: none;
+  width: 25%;
+  transition: all 0.5s;
+}
+
+.nav-link-1:hover {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: white;
+  width: 20%;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar.navbar-dark.navbar-expand-lg {
+    padding: 1.5rem;
+  }
+
+  .nav-item {
+    padding: 1rem 0 1rem 0;
+    display: block;
+  }
+
+  .darkBg {
+    background-color: black;
+  }
+}
+
+/*Hero Banner*/
+
+.container-fluid.cmp-heroBanner {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cmp-heroBanner__logo {
+  width: 30%;
+  margin: auto;
+}
+
+.cmp-heroBanner__title {
+  font-family: "Adobe Clean Regular", sans-serif;
+  font-size: 4rem;
+  /* font-weight: 700; */
+  font-style: normal;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cmp-heroBanner__title > p:hover:before {
+  content: "Stay Tuned!";
+}
+
+.cmp-heroBanner__title > p:hover span {
+  display: none;
+}
+
+.cmp-heroBanner__desc {
+  font-family: "Adobe Clean Regular", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.cmp-heroBanner__wrapper > form > input[type="text"] {
+  width: 50%;
+}
+
+/* form.example input[type="text"] {
+  width: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid grey;
+  background: #f1f1f1;
+  border-radius: 1rem;
+} */
+
+form.example button {
+  width: 270px;
+  padding: 9px;
+  background: black;
+  font-size: 1.5rem;
+  /* transform: translateX(5px); */
+  border: none;
+}
+
+form.example button:hover {
+  background: white;
+  transition: ease 0.5s;
+}
+
+form.example button:hover a {
+  color: black;
+  transition: ease 0.5s;
+}
+
+.btn_1 {
+  border-radius: 1rem;
+}
+
+.btn_1 a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .cmp-heroBanner__logo {
+    width: 40%;
+  }
+  .cmp-heroBanner__title{
+    font-size: 3rem;
+  }
+  .nav-link-1 {
+    font-size: 1.4rem;
+  }
+  .nav-link-1:hover {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+    form.example button {
+        font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    form.example button {
+      font-size: 1.25rem;
+    }
+  }
