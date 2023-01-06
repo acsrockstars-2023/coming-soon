@@ -69,6 +69,7 @@ footer{
 .logo .rockstar-logo {
     width: auto;
     height: 80px;
+    padding-left: 2rem;
 }
 
 .content ul {
