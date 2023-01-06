@@ -41,6 +41,8 @@ footer{
     justify-content: space-between;
 }
 
+
+
 .logo {
     display: flex;
     justify-items: center;
@@ -55,6 +57,8 @@ footer{
     width: auto;
     height: 70px;
 }
+
+   
 
 .vl {
     border-left: 1px solid white;
@@ -117,7 +121,11 @@ li a:hover {
 
 @media only screen and (max-width: 600px) {
     .logo {
-        justify-content: end;
+        justify-content: center;
+    }
+    
+    .col-sm-6.logo>a:nth-child(3){
+        padding-right: 0;
     }
 
     .content {
